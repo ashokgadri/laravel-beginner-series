@@ -1,107 +1,135 @@
-# Laravel Beginner Series – Source Code
+# 📘 Laravel Beginner Series – Source Code
 
-This repository contains the source code for the **Laravel Beginner Series** on YouTube.
+This repository contains the **source code for the Laravel Beginner Series** on YouTube by **CodeWithAshok**.
 
-The goal of this series is to help beginners understand **how Laravel works step by step**, by explaining core concepts clearly and building a real application in a predictable way.
+The goal of this series is to help beginners understand **how Laravel actually works**, step by step, by building a real application and explaining core concepts clearly.
 
-Each video in the series corresponds to a **Git tag**, so you can check out the **exact code state** used in that video and follow along without confusion.
+Each video in the series maps to a **Git tag**, allowing you to check out the **exact code state** used in that video.
 
 ---
 
-## Completed Videos & Git Tags
+## 🎥 YouTube Series
 
-### 1. Laravel Installation
+Laravel Beginner Series on YouTube  
+Channel: **CodeWithAshok**
+
+(The video links are available in each video description.)
+
+---
+
+## 📺 Completed Videos & Git Tags
+
+### 1️⃣ Laravel Installation
 
 **Git Tag:** `video-1-install`
 
-This video covers:
+Covers:
 
 -   Installing Laravel using Composer / Laravel Herd
 -   Verifying the installation
 -   Running a fresh Laravel project
 
-Checkout the code used in this video:
+```bash
 git checkout video-1-install
+```
 
 ---
 
-### 2. Laravel Folder Structure
+### 2️⃣ Laravel Folder Structure
 
 **Git Tag:** `video-1-install`
 
-This video explains:
+Explains:
 
 -   Laravel’s directory structure
--   The purpose of important folders
+-   Purpose of important folders
 -   How Laravel organizes files internally
 
-Note: This video is **conceptual only**.  
-No application logic or functional code changes are introduced at this step.
+📌 This video is **conceptual only**.  
+No functional code changes are introduced.
 
-Checkout the code:
+```bash
 git checkout video-1-install
+```
 
 ---
 
-### 3. Laravel Routes & Blade Views
+### 3️⃣ Laravel Routes & Blade Views
 
 **Git Tag:** `video-3-routes-views`
 
-This video explains:
+Explains:
 
--   How Laravel routes work
--   Why 404 (Page Not Found) errors happen
--   Returning text vs Blade views from routes
--   Creating Home and About pages
--   Passing data from routes to Blade views
--   The Laravel request flow:  
-    URL → Route → View → Browser
+-   Laravel routing basics
+-   Handling 404 (Page Not Found) errors
+-   Returning text vs Blade views
+-   Home and About pages
+-   Passing data from routes to views
+-   Laravel flow: URL → Route → View → Browser
 
-Checkout the code used in this video:
+```bash
 git checkout video-3-routes-views
+```
 
 ---
 
-## How to Use This Repository
+## 🧭 How to Use This Repository
 
 1. Clone the repository:
-   git clone https://github.com/ashokgadri/laravel-beginner-series.git
 
-2. List all available video tags:
-   git tag
+```bash
+git clone https://github.com/ashokgadri/laravel-beginner-series.git
+```
 
-3. Checkout the tag that matches the video you are watching:
-   git checkout <tag-name>
+2. List available tags:
 
-Each tag represents a **stable snapshot** of the code at that point in the series.
+```bash
+git tag
+```
+
+3. Checkout the tag for the video you are watching:
+
+```bash
+git checkout <tag-name>
+```
 
 ---
 
-## Tag Strategy
+## 🏷️ Tag Strategy
 
--   Each YouTube video maps to **one Git tag**
--   Tags are never modified after publishing
--   This ensures consistent and reproducible learning
+-   One Git tag per YouTube video
+-   Tags are immutable once published
+-   Ensures reproducible learning
 
 ---
 
-## Upcoming Videos
+## 🚀 Upcoming Videos
 
 -   Laravel Controllers — Organizing Your App the Laravel Way
--   Laravel Request & Response Lifecycle
+-   Request & Response Lifecycle
 -   Route Model Binding
 -   Validation Basics
 -   Eloquent Models & Relationships
--   Middleware & Authentication Basics
+-   Middleware & Authentication
 
 ---
 
-## Support the Series
+## 🙋 About the Author
 
-If this repository or the videos helped you:
+**Ashok Gadri**  
+YouTube: https://www.youtube.com/@GadriAshok  
+GitHub: https://github.com/ashokgadri
 
--   Star this repository
--   Comment on the YouTube videos
--   Subscribe to the channel
+I create beginner-friendly Laravel and backend development tutorials.
 
-Happy learning and happy coding 🚀
+---
+
+## ⭐ Support
+
+If this series helped you:
+
+-   ⭐ Star the repository
+-   👍 Like the YouTube videos
+-   🔔 Subscribe to the channel
+
+Happy learning 🚀
