@@ -73,6 +73,30 @@ git checkout video-3-routes-views
 
 ---
 
+### 4️⃣ Laravel Controllers Explained (Routes → Controllers)
+
+**Git Tag:** `video-4-controllers`
+
+Explains:
+
+-   Why putting logic inside routes becomes a problem
+-   Why controllers exist in Laravel
+-   Creating and using controllers
+-   Moving logic from routes to controllers
+-   Data flow: Route → Controller → View
+-   Passing data from controllers to Blade views
+-   Named routes (intro)
+
+📌 No database  
+📌 No models  
+📌 Just core Laravel fundamentals
+
+```bash
+git checkout video-4-controllers
+```
+
+---
+
 ## 🧭 How to Use This Repository
 
 1. Clone the repository:
@@ -87,7 +111,7 @@ git clone https://github.com/ashokgadri/laravel-beginner-series.git
 git tag
 ```
 
-3. Checkout the tag for the video you are watching:
+3. Checkout the tag that matches the video you are watching:
 
 ```bash
 git checkout <tag-name>
@@ -105,7 +129,6 @@ git checkout <tag-name>
 
 ## 🚀 Upcoming Videos
 
--   Laravel Controllers — Organizing Your App the Laravel Way
 -   Request & Response Lifecycle
 -   Route Model Binding
 -   Validation Basics
