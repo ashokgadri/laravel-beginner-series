@@ -1,5 +1,5 @@
 <h1>Home Page</h1>
-<p>Welcome {{ $name }}</p>
+<p>Welcome {{ $name ?? 'Guest' }}</p>
 
-<a href="/home">Home</a>
-<a href="/about">About</a>
+<a href="{{ route('home') }}">Home</a>
+<a href="{{ route('about') }}">About</a>

@@ -1,5 +1,11 @@
 <h1>About Page</h1>
-<p>This is the about page</p>
+<p>This is a {{ $framework }} beginner series</p>
 
-<a href="/home">Home</a>
-<a href="/about">About</a>
+<ul>
+    @foreach($topics as $topic)
+        <li>{{ $topic }}</li>
+    @endforeach
+</ul>
+
+<a href="{{ route('home') }}">Home</a>
+<a href="{{ route('about') }}">About</a>
