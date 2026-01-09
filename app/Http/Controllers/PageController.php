@@ -2,18 +2,21 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Topic;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function home(){
+    public function home()
+    {
         $name = 'Ashok';
         return view('home', compact('name')); // ['name' => $name]
     }
 
-    public function about(){
+    public function about()
+    {
         $framework = 'Laravel';
-        $topics = ['Routes', 'Controllers', 'Views'];
+        $topics = Topic::all();
         return view('about', compact('framework', 'topics'));
     }
 }

@@ -3,7 +3,7 @@
 
 <ul>
     @foreach($topics as $topic)
-        <li>{{ $topic }}</li>
+    <li>{{ $topic->name }}</li>
     @endforeach
 </ul>
 

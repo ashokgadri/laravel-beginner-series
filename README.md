@@ -97,6 +97,31 @@ git checkout video-4-controllers
 
 ---
 
+### 5️⃣ Laravel Database Basics — Where Does Data Come From?
+
+**Git Tag:** `video-5-database-basics`
+
+Explains:
+
+-   Why hardcoding data in controllers becomes a problem
+-   Why databases exist and what problem they solve
+-   Where Laravel stores and retrieves real data
+-   What migrations are (high level)
+-   What models are (without overwhelm)
+-   Laravel data flow:  
+    Route → Controller → Model → Database → View
+
+📌 No authentication  
+📌 No validation  
+📌 No relationships  
+📌 Focus on fundamentals only
+
+```bash
+git checkout video-5-database-basics
+```
+
+---
+
 ## 🧭 How to Use This Repository
 
 1. Clone the repository:
@@ -105,7 +130,7 @@ git checkout video-4-controllers
 git clone https://github.com/ashokgadri/laravel-beginner-series.git
 ```
 
-2. List available tags:
+2. List available video tags:
 
 ```bash
 git tag
@@ -129,7 +154,7 @@ git checkout <tag-name>
 
 ## 🚀 Upcoming Videos
 
--   Request & Response Lifecycle
+-   Adding data using Laravel (no manual database editing)
 -   Route Model Binding
 -   Validation Basics
 -   Eloquent Models & Relationships
@@ -151,7 +176,7 @@ I create beginner-friendly Laravel and backend development tutorials.
 
 If this series helped you:
 
--   ⭐ Star the repository
+-   ⭐ Star this repository
 -   👍 Like the YouTube videos
 -   🔔 Subscribe to the channel
 
