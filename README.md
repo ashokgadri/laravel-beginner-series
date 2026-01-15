@@ -122,6 +122,30 @@ git checkout video-5-database-basics
 
 ---
 
+### 6️⃣ How Data Is Added in Laravel (Beginner)
+
+**Git Tag:** `video-6-adding-data`
+
+Explains:
+
+-   Why data creation starts in controllers
+-   How Laravel creates data using Eloquent
+-   Understanding model responsibility
+-   Seeing database changes reflected on the page
+-   The core Laravel write flow:
+    Route → Controller → Model → Database → View
+
+📌 No forms  
+📌 No validation  
+📌 No authentication  
+📌 Focus on understanding the core flow
+
+```bash
+git checkout video-6-adding-data
+```
+
+---
+
 ## 🧭 How to Use This Repository
 
 1. Clone the repository:
@@ -154,7 +178,7 @@ git checkout <tag-name>
 
 ## 🚀 Upcoming Videos
 
--   Adding data using Laravel (no manual database editing)
+-   Adding and updating user data
 -   Route Model Binding
 -   Validation Basics
 -   Eloquent Models & Relationships

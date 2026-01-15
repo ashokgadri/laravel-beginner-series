@@ -19,4 +19,12 @@ class PageController extends Controller
         $topics = Topic::all();
         return view('about', compact('framework', 'topics'));
     }
+
+    public function createTopic()
+    {
+        Topic::create([
+            'name' => 'Eloquent'
+        ]);
+        return 'Topic Created';
+    }
 }
